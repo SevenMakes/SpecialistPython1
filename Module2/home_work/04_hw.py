@@ -16,12 +16,11 @@
 ######
 
 a = int(input('a =:'))
-h = a
 line_between_the_first_and_last = '#'+((a-2)*' ')+'#'
 i = 0
 
 print (a*'#')
-while i != h-2:
+while i != a-2:
     print(line_between_the_first_and_last)
     i += 1
 print (a*'#')
