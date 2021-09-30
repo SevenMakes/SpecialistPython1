@@ -30,4 +30,10 @@
 # 19 189.81 Rub.
 # 20 199.8 Rub.
 
-# TODO: your code here
+price = float(input('Price: '))
+quantity = 1
+
+while quantity <= 20:
+    total_price = price * quantity
+    print(quantity,total_price,'Rub')
+    quantity+=1
